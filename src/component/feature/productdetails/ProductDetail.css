@@ -1,0 +1,23 @@
+.product-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.product-description {
+  color: var(--tertiaryColor);
+  font-size: var(--fontSizeSmall);
+}
+
+.product-price {
+  color: var(--primaryColor);
+  font-size: var(--fontSizeNormal);
+  font-weight: var(--fontHeavy);
+}

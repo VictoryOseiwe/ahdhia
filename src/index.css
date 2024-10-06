@@ -1,0 +1,91 @@
+@import url("https://fonts.cdnfonts.com/css/mona-sans");
+
+:root {
+  --backgroundimage: linear-gradient(
+    109.6deg,
+    rgba(112, 246, 255, 0.33) 11.2%,
+    rgba(221, 108, 241, 0.26) 42%,
+    rgba(229, 106, 253, 0.31) 71.5%,
+    rgba(123, 183, 253, 1) 100.2%
+  );
+
+  /* colors  */
+  --primaryColor: #000000;
+  --secondaryColor: #ffffff;
+  --tertiaryColor: #808080;
+  --discountColor: red;
+  --productColorBackground: #f2f1f0;
+
+  /* shadow */
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* font weight */
+  --fontHeavy: 600;
+  --fontNormal: 500;
+
+  /* font sizes */
+
+  --fontSizeSmall: 14px;
+  --fontSizeNormal: 16px;
+  --fontSizeLarge: 20px;
+  --fontSizeXLarge: 24px;
+  --fontSizeXXLarge: 32px;
+  --fontSizeXXXLarge: 48px; /* might not use this though */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mona-Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+h3 {
+  font-size: var(--fontSizeXLarge);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon:hover {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: var(--fontSizeLarge);
+  }
+
+  h4 {
+    font-size: var(--fontSizeNormal);
+  }
+}
+
+.adimge {
+  height: 500px;
+  width: 500px;
+}
