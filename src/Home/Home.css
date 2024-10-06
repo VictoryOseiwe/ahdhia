@@ -196,8 +196,8 @@
     padding: 30px;
   }
 
-  .hero-container-card-image h2 {
-    font-size: var(--fontSizeXLarge);
+  .hero-container-card1 h2 {
+    font-size: var(--fontSizeXXLarge);
   }
 
   .hero-container-card-image p {
