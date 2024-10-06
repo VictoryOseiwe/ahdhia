@@ -185,6 +185,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 50px;
+    padding: 0 15px;
   }
 
   .hero-container-card-image {
@@ -201,5 +202,25 @@
 
   .hero-container-card-image p {
     font-size: var(--fontSizeSmall);
+  }
+
+  .season-shop {
+    padding: 0 15px;
+  }
+
+  .discover-grid-container {
+    padding: 0 15px;
+  }
+
+  .explore-grid-container {
+    padding: 0 15px;
+  }
+
+  .recommended-grid-container {
+    padding: 0 15px;
+  }
+
+  .product-sport-container {
+    padding: 0 15px;
   }
 }
